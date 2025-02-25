@@ -99,7 +99,7 @@ std::vector<int16_t> alignAudio(const std::vector<int16_t>& samples1, const std:
 }
 
 int main(int argc, char* argv[]) {
-    if (argc < 3) {
+    if (argc < 4) {
         std::cerr << "Usage: " << argv[0] << " <input1.wav> <input2.wav> <output.wav>" << std::endl;
         return 1;
     }
