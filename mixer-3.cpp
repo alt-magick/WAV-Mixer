@@ -201,7 +201,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    std::cout << "Performing Specrtal Mixing (Slow)." << std::endl;
+    std::cout << "Performing Spectral Mixing (Slow)." << std::endl << std::endl;
 
     // Prompt for mixing ratio
     double mixRatio;
